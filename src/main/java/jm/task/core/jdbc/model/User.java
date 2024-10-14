@@ -64,11 +64,7 @@ public class User {
 
     @Override
     public String toString () {
-        StringBuilder result = new StringBuilder();
-        result.append(this.getName()+" ");
-        result.append(this.getLastName()+" ");
-        result.append(this.getAge());
-        return result.toString();
+        return name+" "+lastName+" "+age;
     }
 
 }

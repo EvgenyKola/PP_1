@@ -13,10 +13,6 @@ import java.util.ArrayList;
 
 public class UserServiceImpl implements UserService {
 
-    public UserServiceImpl() {
-
-    }
-
     public void createUsersTable() {
 
        try (Connection connection = Util.getConnection(); Statement statement = connection.createStatement()) {

@@ -8,7 +8,6 @@ public class UserDaoHibernateImpl implements UserDao {
 
     //Следующая задача
 
-
     public UserDaoHibernateImpl() {
 
     }
